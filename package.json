@@ -4,6 +4,8 @@
   "description": "A simple news website using NodeJS and EJS",
   "main": "app.js",
   "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,8 @@
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }
